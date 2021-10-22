@@ -1,6 +1,3 @@
-
-// https://stackoverflow.com/questions/47640550/what-is-a-in-rust-language
-
 use std::fmt;
 use std::io::stdin;
 //=============================================
@@ -27,11 +24,7 @@ impl Default for Game {
 
 impl Game {
 
-
-
     fn ended(&self) -> bool {
-        // Customize so only `x` and `y` are denoted.
-        // https://dev.to/anilkhandei/mutable-arrays-in-rust-1k5o
 
         // check horizontally
         let mut ret = 0u8;
@@ -189,7 +182,6 @@ impl Game {
     }
 }
 
-// https://stackoverflow.com/questions/27022848/how-i-can-mutate-a-structs-field-from-a-method
 
 fn main(){
 
