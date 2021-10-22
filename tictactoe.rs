@@ -195,8 +195,6 @@ fn main(){
 
     let mut mygame = Game{..Default::default()};
     // println!("{:#?}", mygame);
-    let ret = mygame.ended();
-    println!("ret {}",ret);
     mygame.run();
 
 }
